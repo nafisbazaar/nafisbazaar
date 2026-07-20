@@ -40,8 +40,8 @@ name:"Women's Abaya",
 category:"Women's Fashion",
 price:1899,
 image:"https://picsum.photos/300/350?random=6"
-}
- {
+},
+{
 id:7,
 name:"Premium White Tupi",
 category:"Tupi",
