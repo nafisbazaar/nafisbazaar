@@ -186,3 +186,32 @@ padding:20px;
 }
 
 }
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:50px 8%;
+background:#fff;
+}
+
+.feature{
+background:#f8f8f8;
+padding:30px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.feature:hover{
+transform:translateY(-8px);
+}
+
+.feature h3{
+margin:15px 0;
+color:#0b6b3a;
+}
+
+.feature p{
+color:#666;
+}
