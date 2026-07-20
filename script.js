@@ -41,6 +41,76 @@ category:"Women's Fashion",
 price:1899,
 image:"https://picsum.photos/300/350?random=6"
 }
+ {
+id:7,
+name:"Premium White Tupi",
+category:"Tupi",
+price:349,
+image:"https://picsum.photos/300/350?random=7"
+},
+{
+id:8,
+name:"Black Tupi",
+category:"Tupi",
+price:299,
+image:"https://picsum.photos/300/350?random=8"
+},
+{
+id:9,
+name:"Oud Attar",
+category:"Attar",
+price:699,
+image:"https://picsum.photos/300/350?random=9"
+},
+{
+id:10,
+name:"Musk Attar",
+category:"Attar",
+price:599,
+image:"https://picsum.photos/300/350?random=10"
+},
+{
+id:11,
+name:"Premium Panjabi",
+category:"Men's Clothes",
+price:1599,
+image:"https://picsum.photos/300/350?random=11"
+},
+{
+id:12,
+name:"Cotton Jubba",
+category:"Men's Clothes",
+price:1799,
+image:"https://picsum.photos/300/350?random=12"
+},
+{
+id:13,
+name:"Luxury Gift Box",
+category:"Gift Item",
+price:1199,
+image:"https://picsum.photos/300/350?random=13"
+},
+{
+id:14,
+name:"Tasbih Gift Set",
+category:"Gift Item",
+price:799,
+image:"https://picsum.photos/300/350?random=14"
+},
+{
+id:15,
+name:"Black Abaya",
+category:"Women's Fashion",
+price:1999,
+image:"https://picsum.photos/300/350?random=15"
+},
+{
+id:16,
+name:"Hijab Premium",
+category:"Women's Fashion",
+price:499,
+image:"https://picsum.photos/300/350?random=16"
+}
 ];
 
 const container = document.getElementById("products");
