@@ -4,58 +4,102 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nafis Bazaar</title>
-<style>
-body{
-font-family:Arial,sans-serif;
-margin:0;
-background:#f4f4f4;
-text-align:center;
-}
-header{
-background:#0b6b3a;
-color:white;
-padding:20px;
-}
-.hero{
-padding:40px 20px;
-}
-.btn{
-display:inline-block;
-padding:12px 25px;
-background:#25D366;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-size:18px;
-}
-footer{
-margin-top:40px;
-padding:15px;
-background:#222;
-color:white;
-}
-</style>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 <header>
-<h1>🕌 Nafis Bazaar</h1>
-<p>Islamic Clothing & Gifts</p>
-</header>
 
-<div class="hero">
-<h2>Welcome to Nafis Bazaar</h2>
-<p>✅ All India Delivery</p>
-<p>✅ Advance Payment Only (No COD)</p>
-
-<a class="btn" href="https://wa.me/919286346530">
-Order on WhatsApp
-</a>
+<div class="logo">
+🕌 Nafis Bazaar
 </div>
 
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Categories</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Premium Islamic Fashion Store</h1>
+
+<p>
+Men's Clothes • Attar • Tupi • Gift Items • Women's Fashion
+</p>
+
+<a href="#products" class="btn">
+Shop Now
+</a>
+
+</section>
+
+
+
+<section class="search-area">
+
+<input
+type="text"
+id="search"
+placeholder="Search Products..."
+>
+
+</section>
+
+
+
+<section class="category">
+
+<button>All</button>
+
+<button>Men's Clothes</button>
+
+<button>Attar</button>
+
+<button>Tupi</button>
+
+<button>Gift Item</button>
+
+<button>Women's Fashion</button>
+
+<button>Other</button>
+
+</section>
+
+
+
+<section
+id="products"
+class="products">
+
+</section>
+
+
+
 <footer>
+
+<p>
+
 © 2026 Nafis Bazaar
+
+</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
