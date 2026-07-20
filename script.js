@@ -155,63 +155,38 @@ Order Now
 
 showProducts(products);
 
-document.getElementById("search").addEventListener("keyup",function(){
+// Search
+document.getElementById("search").addEventListener("keyup", function () {
 
-let value=this.value.toLowerCase();
+let value = this.value.toLowerCase();
 
-let result=products.filter(item=>const buttons = document.querySelectorAll(".category button");
-
-buttons.forEach(button => {
-
-button.addEventListener("click", () => {
-
-const category = button.textContent;
-
-if(category === "All"){
-
-showProducts(products);
-
-return;
-
-}
-
-const filtered = products.filter(item => item.category === category);
-
-showProducts(filtered);
-
-});
-
-});
- const buttons = document.querySelectorAll(".category button");
-
-buttons.forEach(button => {
-
-button.addEventListener("click", () => {
-
-const category = button.textContent;
-
-if(category === "All"){
-
-showProducts(products);
-
-return;
-
-}
-
-const filtered = products.filter(item => item.category === category);
-
-showProducts(filtered);
-
-});
-
-}); 
-
+let result = products.filter(item =>
 item.name.toLowerCase().includes(value) ||
-
 item.category.toLowerCase().includes(value)
-
 );
 
 showProducts(result);
+
+});
+
+// Category Filter
+const buttons = document.querySelectorAll(".category button");
+
+buttons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+const category = button.textContent;
+
+if(category === "All"){
+showProducts(products);
+return;
+}
+
+const filtered = products.filter(item => item.category === category);
+
+showProducts(filtered);
+
+});
 
 });
