@@ -112,6 +112,29 @@ showProducts(filtered);
 });
 
 });
+ const buttons = document.querySelectorAll(".category button");
+
+buttons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+const category = button.textContent;
+
+if(category === "All"){
+
+showProducts(products);
+
+return;
+
+}
+
+const filtered = products.filter(item => item.category === category);
+
+showProducts(filtered);
+
+});
+
+}); 
 
 item.name.toLowerCase().includes(value) ||
 
