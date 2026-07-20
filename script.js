@@ -32,7 +32,17 @@ function showProducts(data){
           <div class="price">₹${item.price}</div>
 
           <a class="order-btn"
-          href="https://wa.me/919286346530?text=I want to order ${encodeURIComponent(item.name)}"
+          href="https://wa.me/919286346530?text=${encodeURIComponent(
+`🛍️ Assalamu Alaikum
+
+I want to order:
+
+${item.name}
+
+Price: ₹${item.price}
+
+Please send me more details.`
+)}"
           target="_blank">
           Order Now
           </a>
