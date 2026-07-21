@@ -105,98 +105,98 @@
     "image": "https://picsum.photos/300/350?random=15"
   },
 {
-"id":17,
+"id":16,
 "name":"Classic White Jubba",
 "category":"Men's Clothes",
 "price":1899,
 "image":"https://picsum.photos/300/350?random=17"
 },
 {
-"id":18,
+"id":17,
 "name":"Saudi Style Jubba",
 "category":"Men's Clothes",
 "price":2199,
 "image":"https://picsum.photos/300/350?random=18"
 },
 {
-"id":19,
+"id":18,
 "name":"Emirati Kandura",
 "category":"Men's Clothes",
 "price":2499,
 "image":"https://picsum.photos/300/350?random=19"
 },
 {
-"id":20,
+"id":19,
 "name":"Premium Cotton Panjabi",
 "category":"Men's Clothes",
 "price":1399,
 "image":"https://picsum.photos/300/350?random=20"
 },
 {
-"id":21,
+"id":20,
 "name":"Kashmiri Attar",
 "category":"Attar",
 "price":799,
 "image":"https://picsum.photos/300/350?random=21"
 },
 {
-"id":22,
+"id":21,
 "name":"Jannatul Firdaus Attar",
 "category":"Attar",
 "price":899,
 "image":"https://picsum.photos/300/350?random=22"
 },
 {
-"id":23,
+"id":22,
 "name":"Rose Attar",
 "category":"Attar",
 "price":499,
 "image":"https://picsum.photos/300/350?random=23"
 },
 {
-"id":24,
+"id":23,
 "name":"Velvet Prayer Tupi",
 "category":"Tupi",
 "price":399,
 "image":"https://picsum.photos/300/350?random=24"
 },
 {
-"id":25,
+"id":24,
 "name":"Turkish Tupi",
 "category":"Tupi",
 "price":599,
 "image":"https://picsum.photos/300/350?random=25"
 },
 {
-"id":26,
+"id":25,
 "name":"Luxury Tasbih",
 "category":"Gift Item",
 "price":699,
 "image":"https://picsum.photos/300/350?random=26"
 },
 {
-"id":27,
+"id":26,
 "name":"Islamic Wall Clock",
 "category":"Gift Item",
 "price":999,
 "image":"https://picsum.photos/300/350?random=27"
 },
 {
-"id":28,
+"id":27,
 "name":"Premium Black Abaya",
 "category":"Women's Fashion",
 "price":2299,
 "image":"https://picsum.photos/300/350?random=28"
 },
 {
-"id":29,
+"id":28,
 "name":"Niqab Set",
 "category":"Women's Fashion",
 "price":799,
 "image":"https://picsum.photos/300/350?random=29"
 },
 {
-"id":30,
+"id":29,
 "name":"Islamic Key Ring",
 "category":"Other",
 "price":199,
